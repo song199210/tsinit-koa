@@ -26,6 +26,7 @@
     "typeorm": "^0.2.25"
   },
   "scripts": {
+    "install": "cnpm install",
     "start": "nodemon -e ts --exec ts-node src/server.ts",
     "dev": "cross-env NODE_ENV=develop npm run start",
     "pro": "cross-env NODE_ENV=production npm run start",
